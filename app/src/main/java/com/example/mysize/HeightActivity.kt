@@ -27,7 +27,7 @@ class HeightActivity : AppCompatActivity() {
                     val spinner = parent as? Spinner
                     val item = spinner?.selectedItem as? String
                     item?.let {
-                        if (it.isNotEmpty()) height1.text = it
+                        if (it.isNotEmpty()) height.text = it
                     }
                 }
 
