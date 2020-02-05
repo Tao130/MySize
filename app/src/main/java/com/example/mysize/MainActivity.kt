@@ -44,8 +44,8 @@ class MainActivity : AppCompatActivity() {
         pref.edit {
             putString("NECK", neck.text.toString())
             putString("SLEEVE", sleeve.text.toString())
-            putString("WAIST", sleeve.text.toString())
-            putString("INSEAM", sleeve.text.toString())
+            putString("WAIST", waist.text.toString())
+            putString("INSEAM", inseam.text.toString())
         }
 
     }
