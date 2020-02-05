@@ -39,7 +39,7 @@ class HeightActivity : AppCompatActivity() {
             "com.example.mysize.PREFERENCE_FILE_KEY", Context.MODE_PRIVATE
         )
         val heightVal = pref.getInt("HEIGHT", 160)
-        height1.text = heightVal.toString()
+        height.text = heightVal.toString()
         seekBar.progress = heightVal
 
         seekBar.setOnSeekBarChangeListener(
@@ -49,7 +49,7 @@ class HeightActivity : AppCompatActivity() {
                     progress: Int,
                     fromUser: Boolean
                 ) {
-                    height1.text = progress.toString()
+                    height.text = progress.toString()
                 }
 
                 override fun onStartTrackingTouch(seekBar: SeekBar?) {}
