@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:splitMotionEvents="false"
     tools:context=".HeightActivity">
 
     <TextView
@@ -78,7 +79,7 @@
             android:text="150" />
 
         <RadioButton
-            android:id="@+id/height4"
+            android:id="@+id/height3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="160" />
